@@ -1,0 +1,12 @@
+
+# GET https://example.com/topics/1 HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/auth
+content-type: application/json
+
+{
+    "email": "rich@pich.com",
+    "password": "123456 "
+}
